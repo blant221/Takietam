@@ -1,0 +1,698 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.44.35217 dla x64
+      Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+      
+      CMakeCCompilerId.c
+      Microsoft (R) Incremental Linker Version 14.44.35217.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCCompilerId.exe 
+      CMakeCCompilerId.obj 
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/3.31.6-msvc6/CompilerIdC/CMakeCCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:1288 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Detecting C compiler /showIncludes prefix:
+        main.c
+        Uwaga: w tym pliku:  C:\\Program Files (x86)\\Steam\\steamapps\\common\\Gothic II\\IntelligentCompanion\\out\\build\\x64-Debug\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Uwaga: w tym pliku:  "
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/cl.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      Microsoft (R) C/C++ wersja kompilatora optymalizującego 19.44.35217 dla x64
+      Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+      
+      CMakeCXXCompilerId.cpp
+      Microsoft (R) Incremental Linker Version 14.44.35217.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+      
+      /out:CMakeCXXCompilerId.exe 
+      CMakeCXXCompilerId.obj 
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+      
+      The CXX compiler identification is MSVC, found in:
+        C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/3.31.6-msvc6/CompilerIdCXX/CMakeCXXCompilerId.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:1288 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:250 (CMAKE_DETERMINE_MSVC_SHOWINCLUDES_PREFIX)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Detecting CXX compiler /showIncludes prefix:
+        main.c
+        Uwaga: w tym pliku:  C:\\Program Files (x86)\\Steam\\steamapps\\common\\Gothic II\\IntelligentCompanion\\out\\build\\x64-Debug\\CMakeFiles\\ShowIncludes\\foo.h
+        
+      Found prefix "Uwaga: w tym pliku:  "
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-66dkdg"
+      binary: "C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-66dkdg"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/cmake/"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-66dkdg'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_2b174
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_2b174.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_2b174.dir\\ /FS -c "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_2b174.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_2b174.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_2b174.exe /implib:cmTC_2b174.lib /pdb:cmTC_2b174.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': C:/PROGRA~1/MICROS~3/2022/COMMUN~1/VC/Tools/MSVC/1444~1.352/bin/Hostx64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Running the C compiler's linker: "C:/PROGRA~1/MICROS~3/2022/COMMUN~1/VC/Tools/MSVC/1444~1.352/bin/Hostx64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35217.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-v0gtnu"
+      binary: "C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-v0gtnu"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/cmake/"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-v0gtnu'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_6b1da
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_6b1da.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_6b1da.dir\\ /FS -c "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_6b1da.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_6b1da.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_6b1da.exe /implib:cmTC_6b1da.lib /pdb:cmTC_6b1da.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': C:/PROGRA~1/MICROS~3/2022/COMMUN~1/VC/Tools/MSVC/1444~1.352/bin/Hostx64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/PROGRA~1/MICROS~3/2022/COMMUN~1/VC/Tools/MSVC/1444~1.352/bin/Hostx64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.44.35217.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckIncludeFiles.cmake:141 (try_compile)"
+      - "union-api/dependencies/ogg/CMakeLists.txt:53 (check_include_files)"
+    checks:
+      - "Looking for include file inttypes.h"
+    directories:
+      source: "C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-2n116v"
+      binary: "C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-2n116v"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/cmake/"
+    buildResult:
+      variable: "INCLUDE_INTTYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-2n116v'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_4a2bb
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_4a2bb.dir\\INCLUDE_INTTYPES_H.c.obj /FdCMakeFiles\\cmTC_4a2bb.dir\\ /FS -c "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Gothic II\\IntelligentCompanion\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-2n116v\\INCLUDE_INTTYPES_H.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_4a2bb.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_4a2bb.dir\\INCLUDE_INTTYPES_H.c.obj  /out:cmTC_4a2bb.exe /implib:cmTC_4a2bb.lib /pdb:cmTC_4a2bb.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckIncludeFiles.cmake:141 (try_compile)"
+      - "union-api/dependencies/ogg/CMakeLists.txt:54 (check_include_files)"
+    checks:
+      - "Looking for include file stdint.h"
+    directories:
+      source: "C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-yyvw6n"
+      binary: "C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-yyvw6n"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/cmake/"
+    buildResult:
+      variable: "INCLUDE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-yyvw6n'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_52a7a
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_52a7a.dir\\INCLUDE_STDINT_H.c.obj /FdCMakeFiles\\cmTC_52a7a.dir\\ /FS -c "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Gothic II\\IntelligentCompanion\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-yyvw6n\\INCLUDE_STDINT_H.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_52a7a.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_52a7a.dir\\INCLUDE_STDINT_H.c.obj  /out:cmTC_52a7a.exe /implib:cmTC_52a7a.lib /pdb:cmTC_52a7a.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckIncludeFiles.cmake:141 (try_compile)"
+      - "union-api/dependencies/ogg/CMakeLists.txt:55 (check_include_files)"
+    checks:
+      - "Looking for include file sys/types.h"
+    directories:
+      source: "C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-2viynk"
+      binary: "C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-2viynk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/cmake/"
+    buildResult:
+      variable: "INCLUDE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-2viynk'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_462c0
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_462c0.dir\\INCLUDE_SYS_TYPES_H.c.obj /FdCMakeFiles\\cmTC_462c0.dir\\ /FS -c "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Gothic II\\IntelligentCompanion\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-2viynk\\INCLUDE_SYS_TYPES_H.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_462c0.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_462c0.dir\\INCLUDE_SYS_TYPES_H.c.obj  /out:cmTC_462c0.exe /implib:cmTC_462c0.lib /pdb:cmTC_462c0.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:262 (check_include_file)"
+      - "union-api/dependencies/ogg/cmake/CheckSizes.cmake:3 (check_type_size)"
+      - "union-api/dependencies/ogg/CMakeLists.txt:65 (include)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-696t6e"
+      binary: "C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-696t6e"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/cmake/;C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/union-api/dependencies/ogg/cmake"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-696t6e'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_03e3c
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_03e3c.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_03e3c.dir\\ /FS -c "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Gothic II\\IntelligentCompanion\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-696t6e\\CheckIncludeFile.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_03e3c.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_03e3c.dir\\CheckIncludeFile.c.obj  /out:cmTC_03e3c.exe /implib:cmTC_03e3c.lib /pdb:cmTC_03e3c.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:263 (check_include_file)"
+      - "union-api/dependencies/ogg/cmake/CheckSizes.cmake:3 (check_type_size)"
+      - "union-api/dependencies/ogg/CMakeLists.txt:65 (include)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ugby1i"
+      binary: "C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ugby1i"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/cmake/;C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/union-api/dependencies/ogg/cmake"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ugby1i'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_6a35d
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_6a35d.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_6a35d.dir\\ /FS -c "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Gothic II\\IntelligentCompanion\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-ugby1i\\CheckIncludeFile.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_6a35d.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_6a35d.dir\\CheckIncludeFile.c.obj  /out:cmTC_6a35d.exe /implib:cmTC_6a35d.lib /pdb:cmTC_6a35d.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:264 (check_include_file)"
+      - "union-api/dependencies/ogg/cmake/CheckSizes.cmake:3 (check_type_size)"
+      - "union-api/dependencies/ogg/CMakeLists.txt:65 (include)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-j0ua0f"
+      binary: "C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-j0ua0f"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/cmake/;C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/union-api/dependencies/ogg/cmake"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-j0ua0f'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_89264
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_89264.dir\\CheckIncludeFile.c.obj /FdCMakeFiles\\cmTC_89264.dir\\ /FS -c "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Gothic II\\IntelligentCompanion\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-j0ua0f\\CheckIncludeFile.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_89264.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_89264.dir\\CheckIncludeFile.c.obj  /out:cmTC_89264.exe /implib:cmTC_89264.lib /pdb:cmTC_89264.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "union-api/dependencies/ogg/cmake/CheckSizes.cmake:3 (check_type_size)"
+      - "union-api/dependencies/ogg/CMakeLists.txt:65 (include)"
+    checks:
+      - "Check size of int16_t"
+    directories:
+      source: "C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-zqt080"
+      binary: "C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-zqt080"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/cmake/;C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/union-api/dependencies/ogg/cmake"
+    buildResult:
+      variable: "HAVE_INT16_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-zqt080'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_cdfa8
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_cdfa8.dir\\INT16_SIZE.c.obj /FdCMakeFiles\\cmTC_cdfa8.dir\\ /FS -c "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Gothic II\\IntelligentCompanion\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-zqt080\\INT16_SIZE.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_cdfa8.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_cdfa8.dir\\INT16_SIZE.c.obj  /out:cmTC_cdfa8.exe /implib:cmTC_cdfa8.lib /pdb:cmTC_cdfa8.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "union-api/dependencies/ogg/cmake/CheckSizes.cmake:4 (check_type_size)"
+      - "union-api/dependencies/ogg/CMakeLists.txt:65 (include)"
+    checks:
+      - "Check size of uint16_t"
+    directories:
+      source: "C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-c4i4t5"
+      binary: "C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-c4i4t5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/cmake/;C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/union-api/dependencies/ogg/cmake"
+    buildResult:
+      variable: "HAVE_UINT16_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-c4i4t5'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_cbec3
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_cbec3.dir\\UINT16_SIZE.c.obj /FdCMakeFiles\\cmTC_cbec3.dir\\ /FS -c "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Gothic II\\IntelligentCompanion\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-c4i4t5\\UINT16_SIZE.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_cbec3.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_cbec3.dir\\UINT16_SIZE.c.obj  /out:cmTC_cbec3.exe /implib:cmTC_cbec3.lib /pdb:cmTC_cbec3.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "union-api/dependencies/ogg/cmake/CheckSizes.cmake:5 (check_type_size)"
+      - "union-api/dependencies/ogg/CMakeLists.txt:65 (include)"
+    checks:
+      - "Check size of u_int16_t"
+    directories:
+      source: "C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-bxkfbw"
+      binary: "C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-bxkfbw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/cmake/;C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/union-api/dependencies/ogg/cmake"
+    buildResult:
+      variable: "HAVE_U_INT16_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-bxkfbw'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_c09bf
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_c09bf.dir\\U_INT16_SIZE.c.obj /FdCMakeFiles\\cmTC_c09bf.dir\\ /FS -c "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Gothic II\\IntelligentCompanion\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-bxkfbw\\U_INT16_SIZE.c"
+        FAILED: CMakeFiles/cmTC_c09bf.dir/U_INT16_SIZE.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_c09bf.dir\\U_INT16_SIZE.c.obj /FdCMakeFiles\\cmTC_c09bf.dir\\ /FS -c "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Gothic II\\IntelligentCompanion\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-bxkfbw\\U_INT16_SIZE.c"
+        C:\\Program Files (x86)\\Steam\\steamapps\\common\\Gothic II\\IntelligentCompanion\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-bxkfbw\\U_INT16_SIZE.c(29): error C2065: "u_int16_t": niezadeklarowany identyfikator
+        C:\\Program Files (x86)\\Steam\\steamapps\\common\\Gothic II\\IntelligentCompanion\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-bxkfbw\\U_INT16_SIZE.c(30): error C2065: "u_int16_t": niezadeklarowany identyfikator
+        C:\\Program Files (x86)\\Steam\\steamapps\\common\\Gothic II\\IntelligentCompanion\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-bxkfbw\\U_INT16_SIZE.c(31): error C2065: "u_int16_t": niezadeklarowany identyfikator
+        C:\\Program Files (x86)\\Steam\\steamapps\\common\\Gothic II\\IntelligentCompanion\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-bxkfbw\\U_INT16_SIZE.c(32): error C2065: "u_int16_t": niezadeklarowany identyfikator
+        C:\\Program Files (x86)\\Steam\\steamapps\\common\\Gothic II\\IntelligentCompanion\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-bxkfbw\\U_INT16_SIZE.c(33): error C2065: "u_int16_t": niezadeklarowany identyfikator
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "union-api/dependencies/ogg/cmake/CheckSizes.cmake:6 (check_type_size)"
+      - "union-api/dependencies/ogg/CMakeLists.txt:65 (include)"
+    checks:
+      - "Check size of int32_t"
+    directories:
+      source: "C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-7nm37c"
+      binary: "C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-7nm37c"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/cmake/;C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/union-api/dependencies/ogg/cmake"
+    buildResult:
+      variable: "HAVE_INT32_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-7nm37c'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_0fd2c
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_0fd2c.dir\\INT32_SIZE.c.obj /FdCMakeFiles\\cmTC_0fd2c.dir\\ /FS -c "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Gothic II\\IntelligentCompanion\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-7nm37c\\INT32_SIZE.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_0fd2c.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_0fd2c.dir\\INT32_SIZE.c.obj  /out:cmTC_0fd2c.exe /implib:cmTC_0fd2c.lib /pdb:cmTC_0fd2c.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "union-api/dependencies/ogg/cmake/CheckSizes.cmake:7 (check_type_size)"
+      - "union-api/dependencies/ogg/CMakeLists.txt:65 (include)"
+    checks:
+      - "Check size of uint32_t"
+    directories:
+      source: "C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-6y89cx"
+      binary: "C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-6y89cx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/cmake/;C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/union-api/dependencies/ogg/cmake"
+    buildResult:
+      variable: "HAVE_UINT32_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-6y89cx'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_d9306
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_d9306.dir\\UINT32_SIZE.c.obj /FdCMakeFiles\\cmTC_d9306.dir\\ /FS -c "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Gothic II\\IntelligentCompanion\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-6y89cx\\UINT32_SIZE.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_d9306.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_d9306.dir\\UINT32_SIZE.c.obj  /out:cmTC_d9306.exe /implib:cmTC_d9306.lib /pdb:cmTC_d9306.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "union-api/dependencies/ogg/cmake/CheckSizes.cmake:8 (check_type_size)"
+      - "union-api/dependencies/ogg/CMakeLists.txt:65 (include)"
+    checks:
+      - "Check size of u_int32_t"
+    directories:
+      source: "C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-rua5lv"
+      binary: "C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-rua5lv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/cmake/;C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/union-api/dependencies/ogg/cmake"
+    buildResult:
+      variable: "HAVE_U_INT32_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-rua5lv'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_1e1f5
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_1e1f5.dir\\U_INT32_SIZE.c.obj /FdCMakeFiles\\cmTC_1e1f5.dir\\ /FS -c "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Gothic II\\IntelligentCompanion\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-rua5lv\\U_INT32_SIZE.c"
+        FAILED: CMakeFiles/cmTC_1e1f5.dir/U_INT32_SIZE.c.obj 
+        C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_1e1f5.dir\\U_INT32_SIZE.c.obj /FdCMakeFiles\\cmTC_1e1f5.dir\\ /FS -c "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Gothic II\\IntelligentCompanion\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-rua5lv\\U_INT32_SIZE.c"
+        C:\\Program Files (x86)\\Steam\\steamapps\\common\\Gothic II\\IntelligentCompanion\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-rua5lv\\U_INT32_SIZE.c(29): error C2065: "u_int32_t": niezadeklarowany identyfikator
+        C:\\Program Files (x86)\\Steam\\steamapps\\common\\Gothic II\\IntelligentCompanion\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-rua5lv\\U_INT32_SIZE.c(30): error C2065: "u_int32_t": niezadeklarowany identyfikator
+        C:\\Program Files (x86)\\Steam\\steamapps\\common\\Gothic II\\IntelligentCompanion\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-rua5lv\\U_INT32_SIZE.c(31): error C2065: "u_int32_t": niezadeklarowany identyfikator
+        C:\\Program Files (x86)\\Steam\\steamapps\\common\\Gothic II\\IntelligentCompanion\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-rua5lv\\U_INT32_SIZE.c(32): error C2065: "u_int32_t": niezadeklarowany identyfikator
+        C:\\Program Files (x86)\\Steam\\steamapps\\common\\Gothic II\\IntelligentCompanion\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-rua5lv\\U_INT32_SIZE.c(33): error C2065: "u_int32_t": niezadeklarowany identyfikator
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "union-api/dependencies/ogg/cmake/CheckSizes.cmake:9 (check_type_size)"
+      - "union-api/dependencies/ogg/CMakeLists.txt:65 (include)"
+    checks:
+      - "Check size of int64_t"
+    directories:
+      source: "C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-lv9ev8"
+      binary: "C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-lv9ev8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/cmake/;C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/union-api/dependencies/ogg/cmake"
+    buildResult:
+      variable: "HAVE_INT64_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-lv9ev8'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_0fced
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_0fced.dir\\INT64_SIZE.c.obj /FdCMakeFiles\\cmTC_0fced.dir\\ /FS -c "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Gothic II\\IntelligentCompanion\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-lv9ev8\\INT64_SIZE.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_0fced.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_0fced.dir\\INT64_SIZE.c.obj  /out:cmTC_0fced.exe /implib:cmTC_0fced.lib /pdb:cmTC_0fced.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "union-api/dependencies/ogg/cmake/CheckSizes.cmake:10 (check_type_size)"
+      - "union-api/dependencies/ogg/CMakeLists.txt:65 (include)"
+    checks:
+      - "Check size of short"
+    directories:
+      source: "C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-kck8z4"
+      binary: "C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-kck8z4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/cmake/;C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/union-api/dependencies/ogg/cmake"
+    buildResult:
+      variable: "HAVE_SHORT_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-kck8z4'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_79a5d
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_79a5d.dir\\SHORT_SIZE.c.obj /FdCMakeFiles\\cmTC_79a5d.dir\\ /FS -c "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Gothic II\\IntelligentCompanion\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-kck8z4\\SHORT_SIZE.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_79a5d.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_79a5d.dir\\SHORT_SIZE.c.obj  /out:cmTC_79a5d.exe /implib:cmTC_79a5d.lib /pdb:cmTC_79a5d.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "union-api/dependencies/ogg/cmake/CheckSizes.cmake:11 (check_type_size)"
+      - "union-api/dependencies/ogg/CMakeLists.txt:65 (include)"
+    checks:
+      - "Check size of int"
+    directories:
+      source: "C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ktbbf8"
+      binary: "C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ktbbf8"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/cmake/;C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/union-api/dependencies/ogg/cmake"
+    buildResult:
+      variable: "HAVE_INT_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-ktbbf8'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_0eaa1
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_0eaa1.dir\\INT_SIZE.c.obj /FdCMakeFiles\\cmTC_0eaa1.dir\\ /FS -c "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Gothic II\\IntelligentCompanion\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-ktbbf8\\INT_SIZE.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_0eaa1.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_0eaa1.dir\\INT_SIZE.c.obj  /out:cmTC_0eaa1.exe /implib:cmTC_0eaa1.lib /pdb:cmTC_0eaa1.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "union-api/dependencies/ogg/cmake/CheckSizes.cmake:12 (check_type_size)"
+      - "union-api/dependencies/ogg/CMakeLists.txt:65 (include)"
+    checks:
+      - "Check size of long"
+    directories:
+      source: "C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-zqgly4"
+      binary: "C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-zqgly4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/cmake/;C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/union-api/dependencies/ogg/cmake"
+    buildResult:
+      variable: "HAVE_LONG_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-zqgly4'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_d30e7
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_d30e7.dir\\LONG_SIZE.c.obj /FdCMakeFiles\\cmTC_d30e7.dir\\ /FS -c "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Gothic II\\IntelligentCompanion\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-zqgly4\\LONG_SIZE.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_d30e7.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_d30e7.dir\\LONG_SIZE.c.obj  /out:cmTC_d30e7.exe /implib:cmTC_d30e7.lib /pdb:cmTC_d30e7.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/CMake/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "union-api/dependencies/ogg/cmake/CheckSizes.cmake:13 (check_type_size)"
+      - "union-api/dependencies/ogg/CMakeLists.txt:65 (include)"
+    checks:
+      - "Check size of long long"
+    directories:
+      source: "C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-1yzmrq"
+      binary: "C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-1yzmrq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
+      CMAKE_C_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/cmake/;C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/union-api/dependencies/ogg/cmake"
+    buildResult:
+      variable: "HAVE_LONG_LONG_SIZE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Program Files (x86)/Steam/steamapps/common/Gothic II/IntelligentCompanion/out/build/x64-Debug/CMakeFiles/CMakeScratch/TryCompile-1yzmrq'
+        
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/Common7/IDE/CommonExtensions/Microsoft/CMake/Ninja/ninja.exe" -v cmTC_0f1e9
+        [1/2] C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Zi /Ob0 /Od /RTC1 -MDd /showIncludes /FoCMakeFiles\\cmTC_0f1e9.dir\\LONG_LONG_SIZE.c.obj /FdCMakeFiles\\cmTC_0f1e9.dir\\ /FS -c "C:\\Program Files (x86)\\Steam\\steamapps\\common\\Gothic II\\IntelligentCompanion\\out\\build\\x64-Debug\\CMakeFiles\\CMakeScratch\\TryCompile-1yzmrq\\LONG_LONG_SIZE.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1944 --intdir=CMakeFiles\\cmTC_0f1e9.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~1\\MICROS~3\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1444~1.352\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_0f1e9.dir\\LONG_LONG_SIZE.c.obj  /out:cmTC_0f1e9.exe /implib:cmTC_0f1e9.lib /pdb:cmTC_0f1e9.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        
+      exitCode: 0
+...
